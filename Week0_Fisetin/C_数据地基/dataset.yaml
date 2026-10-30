@@ -48,16 +48,31 @@ outputs:
   - path: Week0_Fisetin/A2_分子相似/zhuncharlie/similarity.py
     desc: Tanimoto结构相似度 + 通路/安全/新鲜度打分脚本
   - path: Week0_Fisetin/A2_分子相似/zhuncharlie/scores.tsv
-    desc: similarity.py的运行输出,Top1=Venetoclax
+    desc: similarity.py的运行输出(表格),Top1=Venetoclax
+  - path: Week0_Fisetin/A2_分子相似/zhuncharlie/scores_chart.png
+    desc: scores.tsv的条形图版本,由plot_scores.py生成,REPORT.md §4内嵌
+  - path: Week0_Fisetin/A1_靶点图谱/zhuncharlie/fisetin_network.png
+    desc: fisetin_graph.json的渲染图,由plot_graph.py生成,满足§7 A1"画成小图"的要求,REPORT.md §2内嵌
 
 reproduce:
   steps:
     - "1. bash run.sh  # 重新拉取ChEMBL/PubChem原始数据到本地临时目录做交叉验证(需要联网,不会覆盖raw_cache/)"
     - "2. cd ../A2_分子相似/zhuncharlie && python3 similarity.py  # 用real_smiles.json重新生成 scores.tsv"
+    - "3. cd ../A2_分子相似/zhuncharlie && python3 plot_scores.py  # 重新生成 scores_chart.png"
+    - "4. cd ../A1_靶点图谱/zhuncharlie && python3 plot_graph.py  # 重新生成 fisetin_network.png"
   known_dependencies:
     - python3 (3.10+)
     - rdkit (pip install rdkit)
     - requests
+    - matplotlib, networkx (只有第3/4步画图需要)
+    - 中文字体 Noto Sans SC(系统默认的DejaVu Sans不含中文字形,否则图里中文会大片缺字)。
+      本机没有系统级CJK字体,是临时从
+      https://fonts.gstatic.com/s/notosanssc/v41/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_FnYw.ttf
+      (Regular)和同目录…GzjCnYw.ttf(Bold)下载到 ~/.fonts/ 并在脚本里用
+      matplotlib.font_manager.addfont() 注册的——字体文件没有提交进仓库(各10MB,体积不值得),
+      换机器重跑画图脚本前记得先下好字体,否则图里中文会大片消失(不是报错,是静默丢字,
+      这是我这次踩的一个坑:curl -m 30 超时截断了字体文件下载,文件大小对不上但matplotlib
+      不报错,后来比对Content-Length才查出来)
   known_limitations:
     - DrugBank数据完全缺失(无账号),已用ChEMBL mechanism/activity替代,但二者不是同一套curation标准,不能完全等价
     - Open Targets knownDrugs字段在当前API版本下查询失败,未排查修复

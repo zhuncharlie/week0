@@ -21,6 +21,8 @@
 
 ## 1. 靶点/网络表(按手册 §5 修正后的 schema)
 
+> 下表的图形化版本见 `fisetin_network.png`(由同目录 `plot_graph.py` 读 `fisetin_graph.json` 生成)。
+
 > ⚠️ 这里刻意不用"靶点蛋白"做表头。原因见下面第 2 节的 ChEMBL 实测数据——
 > Fisetin 没有一个被实验锁定的主靶点。
 

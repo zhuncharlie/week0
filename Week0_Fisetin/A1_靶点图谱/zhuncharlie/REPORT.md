@@ -25,6 +25,12 @@ Fisetin 是水果里的天然黄酮,在"10 种黄酮同台清衰老细胞"的擂
 
 > 完整版 + 我为什么这么标,见 `fisetin_profile.md`;靶点/网络的图结构见 `fisetin_graph.json`。
 
+![Fisetin 靶点/网络图谱](fisetin_network.png)
+
+> 节点颜色=类型(分子/网络/蛋白家族/通路…),边的实线/虚线=证据档位(实验/计算证据 vs
+> 假说/文献引用)——这张图本身就是"证据档位"这个概念的可视化版本。由 `plot_graph.py`
+> 读 `fisetin_graph.json` 生成,数据以 JSON 为准,图是给人看的版本。
+
 ## 3. 同网络/同通路的已上市药(10 个,见 `candidate_table.tsv`)
 
 按"该不该先验"从高到低排序(完整表格 + 来源链接在 candidate_table.tsv):
@@ -43,6 +49,8 @@ Fisetin 是水果里的天然黄酮,在"10 种黄酮同台清衰老细胞"的擂
 | Etoposide | 淋巴瘤/白血病 | 拓扑异构酶抑制(机制标签重叠) | ✅ 1996 | 强细胞毒性化疗药 | **故意不提名**——这是本论文自己用来**诱导**IMR-90细胞衰老的试剂,方向相反 |
 
 ## 4. 我自己的"打分"(这一格是我这周的灵魂)
+
+![候选药综合打分排序](../../A2_分子相似/zhuncharlie/scores_chart.png)
 
 - **我用的方法**:`A2_分子相似/zhuncharlie/similarity.py`——
   综合分 = 0.3×结构相似度(Morgan指纹Tanimoto) + 0.3×通路重叠(0/1/2人工标) +
@@ -100,6 +108,7 @@ Fisetin 是水果里的天然黄酮,在"10 种黄酮同台清衰老细胞"的擂
   必要性实验来证明因果,目前更像"合理的候选解释"而非确证机制。
 
 ---
-**关联文件**:`fisetin_profile.md` · `fisetin_graph.json` · `../../A2_分子相似/zhuncharlie/similarity.py`
+**关联文件**:`fisetin_profile.md` · `fisetin_graph.json` + `fisetin_network.png`(`plot_graph.py`生成)
+· `../../A2_分子相似/zhuncharlie/similarity.py` + `scores_chart.png`(`plot_scores.py`生成)
 · `../../candidate_table.tsv` · `../../B_临床话术/elevator_pitch.md` + `assay_plan.md`
 · `../../C_数据地基/dataset.yaml` + `run.sh` · `../../D_生物翻译/concept_cards.md`

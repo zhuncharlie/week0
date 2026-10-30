@@ -16,15 +16,16 @@ Fisetin 不是单靶点药,是在"10 种黄酮擂台赛"里**靠选择性杀衰�
 
 | 顺序 | 文件 | 对应任务书要求 | 预计耗时 |
 |---|---|---|---|
-| 1 | [`A1_靶点图谱/zhuncharlie/REPORT.md`](A1_靶点图谱/zhuncharlie/REPORT.md) | §8① 主报告(★从这里开始) | 5 min |
+| 1 | [`A1_靶点图谱/zhuncharlie/REPORT.md`](A1_靶点图谱/zhuncharlie/REPORT.md) | §8① 主报告(★从这里开始,内嵌两张图) | 5 min |
 | 2 | [`candidate_table.tsv`](candidate_table.tsv) | §8③ 全组共用候选药表 | 2 min |
 | 3 | [`B_临床话术/elevator_pitch.md`](B_临床话术/elevator_pitch.md) | §8④ 30秒电梯陈述 | 1 min |
 | 4 | [`A1_靶点图谱/zhuncharlie/fisetin_profile.md`](A1_靶点图谱/zhuncharlie/fisetin_profile.md) | §7 A1 工位文件,REPORT.md 里每条结论的详细出处 | 3 min |
-| 5(可选) | [`A2_分子相似/zhuncharlie/similarity.py`](A2_分子相似/zhuncharlie/similarity.py) + `scores.tsv` | §7 A2 工位文件,REPORT §4 打分方法的可运行版本 | 2 min |
-| 6(可选) | [`B_临床话术/assay_plan.md`](B_临床话术/assay_plan.md) | 具体验法,给合作医生看的版本 | 2 min |
-| 7(可选) | [`A1_靶点图谱/zhuncharlie/fisetin_graph.json`](A1_靶点图谱/zhuncharlie/fisetin_graph.json) | §7 A1 靶点/网络图(节点+边) | — |
-| 8(可选) | [`D_生物翻译/concept_cards.md`](D_生物翻译/concept_cards.md) | §7 D 工位,5个概念卡 | 2 min |
-| 9(可选) | [`C_数据地基/dataset.yaml`](C_数据地基/dataset.yaml) + [`run.sh`](C_数据地基/run.sh) | §7 C 工位,数据可复现性 | — |
+| 5(可选) | [`A1_靶点图谱/zhuncharlie/fisetin_network.png`](A1_靶点图谱/zhuncharlie/fisetin_network.png) | §7 A1"画成小图"要求,靶点/网络图(由`plot_graph.py`渲染) | — |
+| 6(可选) | [`A2_分子相似/zhuncharlie/scores_chart.png`](A2_分子相似/zhuncharlie/scores_chart.png) + [`similarity.py`](A2_分子相似/zhuncharlie/similarity.py) | §7 A2 工位文件,REPORT §4 打分方法的可视化+可运行版本 | 2 min |
+| 7(可选) | [`B_临床话术/assay_plan.md`](B_临床话术/assay_plan.md) | 具体验法,给合作医生看的版本 | 2 min |
+| 8(可选) | [`A1_靶点图谱/zhuncharlie/fisetin_graph.json`](A1_靶点图谱/zhuncharlie/fisetin_graph.json) | §7 A1 靶点/网络图原始数据(节点+边) | — |
+| 9(可选) | [`D_生物翻译/concept_cards.md`](D_生物翻译/concept_cards.md) | §7 D 工位,5个概念卡 | 2 min |
+| 10(可选) | [`C_数据地基/dataset.yaml`](C_数据地基/dataset.yaml) + [`run.sh`](C_数据地基/run.sh) | §7 C 工位,数据可复现性 | — |
 | 背景 | [`A1_靶点图谱/zhuncharlie/notes.md`](A1_靶点图谱/zhuncharlie/notes.md) | D1 草稿碎片,5个核心词自己的定义 | — |
 
 ## 目录结构
@@ -36,12 +37,16 @@ Week0_Fisetin/
 ├── A1_靶点图谱/zhuncharlie/
 │   ├── REPORT.md                      ★主报告,先看这个
 │   ├── fisetin_profile.md             Fisetin档案(按手册修正后的schema)
-│   ├── fisetin_graph.json             靶点/网络图谱(节点+边)
+│   ├── fisetin_graph.json             靶点/网络图谱原始数据(节点+边)
+│   ├── fisetin_network.png            靶点/网络图谱渲染图("画成小图"的图)
+│   ├── plot_graph.py                  渲染脚本(读json出png)
 │   └── notes.md                       D1草稿:5个核心词自己的定义
 ├── A2_分子相似/zhuncharlie/
 │   ├── similarity.py                  D4打分脚本(Tanimoto+通路+安全+新鲜度)
 │   ├── real_smiles.json               候选药SMILES(唯一结构数据源,脚本实际读取)
-│   └── scores.tsv                     脚本运行输出
+│   ├── scores.tsv                     脚本运行输出(表格版)
+│   ├── scores_chart.png               综合打分排序图(图表版)
+│   └── plot_scores.py                 渲染脚本(读tsv出png)
 ├── B_临床话术/
 │   ├── elevator_pitch.md              30秒电梯陈述
 │   └── assay_plan.md                  具体验法(给合作医生看)
