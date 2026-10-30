@@ -1,0 +1,56 @@
+# C 岗 · 最小数据集描述(solo 版,覆盖范围=这次我实际产出的全部文件)
+
+project: Week0_Fisetin_Pilot
+owner: zhuncharlie (solo,覆盖 A1/A2/B/C/D 多个工位的最小必要产出)
+updated: 2026-10-30
+
+inputs:
+  papers:
+    - path: inputs/Fisetin2018.pdf
+      desc: Yousefzadeh et al. 2018, EBioMedicine 36:18-28, 主论文(CC BY-NC-ND 4.0)
+  task_docs:
+    - inputs/Week0_任务交代与完成标准.md
+    - inputs/Week0_手册_论文配套版.md
+
+external_apis:
+  # 没有DrugBank账号,全部改用免登录的公开REST API,全部可编程重跑
+  - name: PubChem PUG REST
+    base_url: https://pubchem.ncbi.nlm.nih.gov/rest/pug
+    used_for: Fisetin基本属性(CID/SMILES/分子式)
+  - name: ChEMBL REST API
+    base_url: https://www.ebi.ac.uk/chembl/api/data
+    used_for: 分子信息、mechanism(已验证机制)、activity(实测活性)、target、drug_indication
+  - name: Open Targets GraphQL (部分使用,schema对不上未深入)
+    base_url: https://api.platform.opentargets.org/api/v4/graphql
+    used_for: 靶点搜索交叉验证(本轮只验证了target search,knownDrugs字段名在当前schema下已变更)
+  - name: DrugAge (genomics.senescence.info)
+    status: 尝试访问,无公开REST API(search.php返回404),只能手动浏览网页,本轮未完成——留给下一轮
+
+raw_cache:
+  dir: scratchpad/api_raw/
+  desc: 所有API原始JSON响应存档,每条报告结论都能回溯到这里的某个文件+对应的source_url
+
+outputs:
+  - path: Week0_Fisetin/A1_靶点图谱/zhuncharlie/fisetin_profile.md
+    desc: Fisetin档案,按手册修正后的phenotypic/SCAPs-network schema
+  - path: Week0_Fisetin/A1_靶点图谱/zhuncharlie/fisetin_graph.json
+    desc: 节点+边的网络图谱,含证据档位
+  - path: Week0_Fisetin/candidate_table.tsv
+    desc: 10个候选药(含3个必填对照行),全组共用格式
+  - path: Week0_Fisetin/A2_分子相似/zhuncharlie/similarity.py
+    desc: Tanimoto结构相似度 + 通路/安全/新鲜度打分脚本
+  - path: Week0_Fisetin/A2_分子相似/zhuncharlie/scores.tsv
+    desc: similarity.py的运行输出,Top1=Venetoclax
+
+reproduce:
+  steps:
+    - "1. bash run.sh  # 重新拉取ChEMBL/PubChem原始数据到 scratchpad/api_raw/ (需要联网)"
+    - "2. cd ../A2_分子相似/zhuncharlie && python3 similarity.py  # 重新生成 scores.tsv"
+  known_dependencies:
+    - python3 (3.10+)
+    - rdkit (pip install rdkit)
+    - requests
+  known_limitations:
+    - DrugBank数据完全缺失(无账号),已用ChEMBL mechanism/activity替代,但二者不是同一套curation标准,不能完全等价
+    - Open Targets knownDrugs字段在当前API版本下查询失败,未排查修复
+    - GeneAge/CellAge/DrugAge未能程序化访问,本轮只读了论文和ChEMBL/PubChem
