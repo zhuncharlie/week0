@@ -1,0 +1,204 @@
+{
+  "CHEMBL4860": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 5516,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Apoptosis regulator Bcl-2 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "label/2016/208573s000lbl.pdf",
+            "ref_type": "FDA",
+            "ref_url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2016/208573s000lbl.pdf"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3137309",
+        "parent_molecule_chembl_id": "CHEMBL3137309",
+        "record_id": 1976726,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4860",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": "BH3 binding groove ",
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5703,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Apoptosis regulator Bcl-2 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "16645636",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/16645636"
+          },
+          {
+            "ref_id": "18040043",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18040043"
+          },
+          {
+            "ref_id": "18931344",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18931344"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2107358",
+        "parent_molecule_chembl_id": "CHEMBL408194",
+        "record_id": 1705098,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4860",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": "Occupies the BH3 binding groove of Bcl-xL, Bcl-2, and Bcl-w.",
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5740,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Apoptosis regulator Bcl-2 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "18451170",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18451170"
+          },
+          {
+            "ref_id": "21094089",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21094089"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL443684",
+        "parent_molecule_chembl_id": "CHEMBL443684",
+        "record_id": 1706071,
+        "selectivity_comment": "High affinity for Bcl-xL, Bcl-2, and Bcl-w (Ki =1 nmol/L).",
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4860",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 9008,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Apoptosis regulator Bcl-2 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "32093809",
+            "ref_type": "PubMed",
+            "ref_url": "https://pubmed.ncbi.nlm.nih.gov/32093809/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4650374",
+        "parent_molecule_chembl_id": "CHEMBL4650374",
+        "record_id": 3490167,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4860",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 50,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 4
+    }
+  },
+  "CHEMBL4625": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5830,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Apoptosis regulator Bcl-X inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "16645636",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/16645636"
+          },
+          {
+            "ref_id": "18040043",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18040043"
+          },
+          {
+            "ref_id": "18931344",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18931344"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2107358",
+        "parent_molecule_chembl_id": "CHEMBL408194",
+        "record_id": 1705098,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4625",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": "Occupies the BH3 binding groove of Bcl-xL, Bcl-2, and Bcl-w.",
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5850,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Apoptosis regulator Bcl-X inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "18451170",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18451170"
+          },
+          {
+            "ref_id": "21094089",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21094089"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL443684",
+        "parent_molecule_chembl_id": "CHEMBL443684",
+        "record_id": 1706071,
+        "selectivity_comment": "High affinity for Bcl-xL, Bcl-2, and Bcl-w (Ki =1 nmol/L).",
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4625",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 50,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    }
+  }
+}

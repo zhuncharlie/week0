@@ -1,0 +1,119 @@
+{
+  "Quercetin": {
+    "chembl_id": "CHEMBL50",
+    "max_phase": "3.0",
+    "first_approval": null,
+    "black_box_warning": 0,
+    "indications": [
+      "Pulmonary Disease, Chronic Obstructive",
+      "Prostatic Neoplasms",
+      "Renal Insufficiency, Chronic",
+      "Gastroesophageal Reflux"
+    ]
+  },
+  "Dasatinib": {
+    "chembl_id": "CHEMBL5416410",
+    "max_phase": "4.0",
+    "first_approval": 2006,
+    "black_box_warning": 0,
+    "indications": [
+      "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+      "Leukemia, Myelogenous, Chronic, BCR-ABL Positive"
+    ]
+  },
+  "Navitoclax": {
+    "chembl_id": "CHEMBL443684",
+    "max_phase": "3.0",
+    "first_approval": null,
+    "black_box_warning": 0,
+    "indications": [
+      "Neoplasms",
+      "Leukemia, Lymphocytic, Chronic, B-Cell",
+      "Small Cell Lung Carcinoma",
+      "Lymphoma, Large B-Cell, Diffuse"
+    ]
+  },
+  "Venetoclax": {
+    "chembl_id": "CHEMBL3137309",
+    "max_phase": "4.0",
+    "first_approval": 2016,
+    "black_box_warning": 0,
+    "indications": [
+      "Leukemia, Lymphocytic, Chronic, B-Cell",
+      "Multiple Myeloma",
+      "Lymphoma, Non-Hodgkin",
+      "Neoplasms"
+    ]
+  },
+  "Idelalisib": {
+    "chembl_id": "CHEMBL2216870",
+    "max_phase": "4.0",
+    "first_approval": 2014,
+    "black_box_warning": 1,
+    "indications": [
+      "Rhinitis, Allergic, Seasonal",
+      "Leukemia, Lymphocytic, Chronic, B-Cell",
+      "Hodgkin Disease",
+      "Lymphoma, Mantle-Cell"
+    ]
+  },
+  "Duvelisib": {
+    "chembl_id": "CHEMBL5315125",
+    "max_phase": "4.0",
+    "first_approval": 2018,
+    "black_box_warning": 1,
+    "indications": [
+      "Lymphoma",
+      "Leukemia, Lymphocytic, Chronic, B-Cell",
+      "Lymphoma, Follicular"
+    ]
+  },
+  "Copanlisib": {
+    "chembl_id": "CHEMBL3218576",
+    "max_phase": "4.0",
+    "first_approval": 2017,
+    "black_box_warning": 0,
+    "indications": [
+      "Lymphoma, Mantle-Cell",
+      "Lymphoma, Non-Hodgkin",
+      "Lymphoma, Large B-Cell, Diffuse",
+      "Neoplasms"
+    ]
+  },
+  "Sirolimus": {
+    "chembl_id": "CHEMBL413",
+    "max_phase": "4.0",
+    "first_approval": 1999,
+    "black_box_warning": 1,
+    "indications": [
+      "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+      "Kidney Diseases",
+      "Cardiovascular Abnormalities",
+      "Graft vs Host Disease"
+    ]
+  },
+  "Everolimus": {
+    "chembl_id": "CHEMBL1908360",
+    "max_phase": "4.0",
+    "first_approval": 2009,
+    "black_box_warning": 1,
+    "indications": [
+      "Acute Coronary Syndrome",
+      "Carcinoma, Adenoid Cystic",
+      "Breast Neoplasms",
+      "Carcinoma, Renal Cell"
+    ]
+  },
+  "Etoposide Phosphate": {
+    "chembl_id": "CHEMBL1200645",
+    "max_phase": "4.0",
+    "first_approval": 1996,
+    "black_box_warning": 0,
+    "indications": [
+      "Lymphoma",
+      "Hodgkin Disease",
+      "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+      "Leukemia, Myeloid, Acute"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5281614,
+        "MolecularFormula": "C15H10O6",
+        "MolecularWeight": "286.24",
+        "SMILES": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(O2)C=C(C=C3)O)O)O)O",
+        "ConnectivitySMILES": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(O2)C=C(C=C3)O)O)O)O",
+        "InChIKey": "XHEFDIBZLJXQHF-UHFFFAOYSA-N",
+        "IUPACName": "2-(3,4-dihydroxyphenyl)-3,7-dihydroxychromen-4-one"
+      }
+    ]
+  }
+}

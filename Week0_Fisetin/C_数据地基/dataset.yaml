@@ -27,16 +27,24 @@ external_apis:
     status: 尝试访问,无公开REST API(search.php返回404),只能手动浏览网页,本轮未完成——留给下一轮
 
 raw_cache:
-  dir: scratchpad/api_raw/
-  desc: 所有API原始JSON响应存档,每条报告结论都能回溯到这里的某个文件+对应的source_url
+  dir: Week0_Fisetin/C_数据地基/raw_cache/
+  desc: >
+    所有被报告直接引用的API原始JSON响应,已提交进仓库(不是放在/tmp临时目录),
+    每条报告结论都能回溯到这里的某个文件 + fisetin_profile.md/candidate_table.tsv里对应的source_url。
+    只收录被实际引用的查询结果,没有引用过的探索性查询(比如DrugAge的404页面、
+    PubChem完整PUG View大JSON里没用到的章节)没有收进来,避免堆废数据。
 
 outputs:
+  - path: Week0_Fisetin/A1_靶点图谱/zhuncharlie/REPORT.md
+    desc: 主报告(★入口文件,先看这个)
   - path: Week0_Fisetin/A1_靶点图谱/zhuncharlie/fisetin_profile.md
     desc: Fisetin档案,按手册修正后的phenotypic/SCAPs-network schema
   - path: Week0_Fisetin/A1_靶点图谱/zhuncharlie/fisetin_graph.json
     desc: 节点+边的网络图谱,含证据档位
   - path: Week0_Fisetin/candidate_table.tsv
     desc: 10个候选药(含3个必填对照行),全组共用格式
+  - path: Week0_Fisetin/A2_分子相似/zhuncharlie/real_smiles.json
+    desc: 候选药规范SMILES,直接从ChEMBL molecule API抓取,similarity.py的唯一结构数据来源
   - path: Week0_Fisetin/A2_分子相似/zhuncharlie/similarity.py
     desc: Tanimoto结构相似度 + 通路/安全/新鲜度打分脚本
   - path: Week0_Fisetin/A2_分子相似/zhuncharlie/scores.tsv
@@ -44,8 +52,8 @@ outputs:
 
 reproduce:
   steps:
-    - "1. bash run.sh  # 重新拉取ChEMBL/PubChem原始数据到 scratchpad/api_raw/ (需要联网)"
-    - "2. cd ../A2_分子相似/zhuncharlie && python3 similarity.py  # 重新生成 scores.tsv"
+    - "1. bash run.sh  # 重新拉取ChEMBL/PubChem原始数据到本地临时目录做交叉验证(需要联网,不会覆盖raw_cache/)"
+    - "2. cd ../A2_分子相似/zhuncharlie && python3 similarity.py  # 用real_smiles.json重新生成 scores.tsv"
   known_dependencies:
     - python3 (3.10+)
     - rdkit (pip install rdkit)

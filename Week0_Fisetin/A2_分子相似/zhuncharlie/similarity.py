@@ -25,26 +25,34 @@ from rdkit import Chem
 from rdkit.Chem import DataStructs
 from rdkit.Chem import rdFingerprintGenerator
 import csv
+import json
 
 _morgan_gen = rdFingerprintGenerator.GetMorganGenerator(radius=2, fpSize=2048)
 
-FISETIN_SMILES = "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)ccc12"  # ChEMBL CHEMBL31574, 直接从API取,不手敲避免结构抄错
+# 结构数据只有一份来源:real_smiles.json(直接从 ChEMBL molecule API 抓的,不手敲)。
+# 第一版我手敲过几个复杂结构(Navitoclax/Venetoclax等),跟真实骨架对不上——
+# 这是我自己在D4踩的一个坑:复杂药物分子的SMILES千万别凭记忆默写,所以这版改成
+# 脚本直接读抓取结果,杜绝二次抄错的可能。real_smiles.json 的抓取过程见
+# ../../C_数据地基/run.sh 同款查询逻辑。
+with open("real_smiles.json") as f:
+    _SMILES = json.load(f)
 
-# 全部 SMILES 取自 ChEMBL molecule API(见 real_smiles.json),不手敲结构——
-# 第一版我手敲了几个复杂结构(Navitoclax/Venetoclax/Dasatinib等),跟真实骨架对不上,
-# 这其实是我自己在D4踩的一个坑:复杂药物分子的SMILES千万别凭记忆默写。
-CANDIDATES = {
-    # name: (smiles, pathway_score 0/1/2, safety_score 0/1/2, novelty_score 0/1)
-    "Quercetin":   ("O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12", 2, 1, 0),
-    "Dasatinib":   ("Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1", 0, 1, 0),
-    "Navitoclax":  ("CC1(C)CCC(c2ccc(Cl)cc2)=C(CN2CCN(c3ccc(C(=O)NS(=O)(=O)c4ccc(N[C@H](CCN5CCOCC5)CSc5ccccc5)c(S(=O)(=O)C(F)(F)F)c4)cc3)CC2)C1", 2, 0, 0),
-    "Venetoclax":  ("CC1(C)CCC(CN2CCN(c3ccc(C(=O)NS(=O)(=O)c4ccc(NCC5CCOCC5)c([N+](=O)[O-])c4)c(Oc4cnc5[nH]ccc5c4)c3)CC2)=C(c2ccc(Cl)cc2)C1", 2, 2, 1),
-    "Idelalisib":  ("CC[C@H](Nc1ncnc2[nH]cnc12)c1nc2cccc(F)c2c(=O)n1-c1ccccc1", 1, 0, 1),
-    "Duvelisib":   ("C[C@H](Nc1ncnc2nc[nH]c12)c1cc2cccc(Cl)c2c(=O)n1-c1ccccc1", 1, 0, 1),
-    "Copanlisib":  ("COc1c(OCCCN2CCOCC2)ccc2c1N=C(NC(=O)c1cnc(N)nc1)N1CCN=C21", 1, 1, 1),
-    "Sirolimus":   ("CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](O)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C", 1, 0, 0),
-    "Everolimus":  ("CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](OCCO)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C", 1, 0, 0),
-    "Etoposide":   ("COc1cc([C@@H]2c3cc4c(cc3[C@@H](O[C@@H]3O[C@@H]5CO[C@@H](C)O[C@H]5[C@H](O)[C@H]3O)[C@H]3COC(=O)[C@H]23)OCO4)cc(OC)c1OP(=O)(O)O", 1, 2, 0),  # pathway=1: TOP2抑制机制重叠,但方向相反(故意纳入做对照,见下方注释)
+FISETIN_SMILES = _SMILES["Fisetin"]
+
+# 通路重叠 / 安全性 / 新鲜度是人工判断,来源见 candidate_table.tsv 对应行,
+# 这里的 key 要和 real_smiles.json 对应(Etoposide Phosphate 是 ChEMBL 里的实际制剂名)。
+MANUAL_SCORES = {
+    # name: (pathway_score 0/1/2, safety_score 0/1/2, novelty_score 0/1)
+    "Quercetin":            (2, 1, 0),
+    "Dasatinib":             (0, 1, 0),
+    "Navitoclax":            (2, 0, 0),
+    "Venetoclax":            (2, 2, 1),
+    "Idelalisib":            (1, 0, 1),
+    "Duvelisib":             (1, 0, 1),
+    "Copanlisib":            (1, 1, 1),
+    "Sirolimus":             (1, 0, 0),
+    "Everolimus":            (1, 0, 0),
+    "Etoposide Phosphate":   (1, 2, 0),  # pathway=1: TOP2抑制机制重叠,但方向相反(故意纳入做对照,见REPORT.md §4)
 }
 
 def tanimoto(smiles_a, smiles_b):
@@ -56,7 +64,8 @@ def tanimoto(smiles_a, smiles_b):
 
 def main():
     rows = []
-    for name, (smiles, pathway, safety, novelty) in CANDIDATES.items():
+    for name, (pathway, safety, novelty) in MANUAL_SCORES.items():
+        smiles = _SMILES[name]
         try:
             sim = tanimoto(FISETIN_SMILES, smiles)
         except Exception as e:

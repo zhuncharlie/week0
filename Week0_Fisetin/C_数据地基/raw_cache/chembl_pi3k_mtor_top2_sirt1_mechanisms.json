@@ -1,0 +1,1789 @@
+{
+  "CHEMBL3130": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 2297,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "label/2014/206545lbl.pdf",
+            "ref_type": "FDA",
+            "ref_url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206545lbl.pdf"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2216870",
+        "parent_molecule_chembl_id": "CHEMBL2216870",
+        "record_id": 1879133,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4108,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://www.amgenoncology-international.com/#/our-products/our-pipeline/",
+            "ref_type": "Other",
+            "ref_url": "http://www.amgenoncology-international.com/#/our-products/our-pipeline/"
+          },
+          {
+            "ref_id": "24591840",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24591840"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4303596",
+        "parent_molecule_chembl_id": "CHEMBL4303596",
+        "record_id": 2472918,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4151,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "25514658",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/25514658"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3408248",
+        "parent_molecule_chembl_id": "CHEMBL3408248",
+        "record_id": 2473762,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4170,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "15367672",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/15367672"
+          },
+          {
+            "ref_id": "25312588",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/25312588"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3545247",
+        "parent_molecule_chembl_id": "CHEMBL3545247",
+        "record_id": 2473345,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4201,
+        "mechanism_comment": "Inhibits mainly class I and IIb HDACS (PMID:22693356)",
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://www.curis.com/pipeline/cudc-907",
+            "ref_type": "Other",
+            "ref_url": "http://www.curis.com/pipeline/cudc-907"
+          },
+          {
+            "ref_id": "22693356",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/22693356"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3622533",
+        "parent_molecule_chembl_id": "CHEMBL3622533",
+        "record_id": 2472927,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4362,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "10.1158/1538-7445.AM2015-2704",
+            "ref_type": "DOI",
+            "ref_url": "http://cancerres.aacrjournals.org/content/75/15_Supplement/2704"
+          },
+          {
+            "ref_id": "http://www.bloodjournal.org/content/122/21/4411?sso-checked=true",
+            "ref_type": "Other",
+            "ref_url": "http://www.bloodjournal.org/content/122/21/4411?sso-checked=true"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4297584",
+        "parent_molecule_chembl_id": "CHEMBL4297584",
+        "record_id": 3133175,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 4404,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "https://ash.confex.com/ash/2012/webprogram/Paper49134.html",
+            "ref_type": "Other",
+            "ref_url": "https://ash.confex.com/ash/2012/webprogram/Paper49134.html"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3989869",
+        "parent_molecule_chembl_id": "CHEMBL3948730",
+        "record_id": 2473440,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 4522,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "https://ash.confex.com/ash/2012/webprogram/Paper51639.html",
+            "ref_type": "Other",
+            "ref_url": "https://ash.confex.com/ash/2012/webprogram/Paper51639.html"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4650214",
+        "parent_molecule_chembl_id": "CHEMBL4650214",
+        "record_id": 2473045,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4724,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "24133210",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24133210"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4303323",
+        "parent_molecule_chembl_id": "CHEMBL4303323",
+        "record_id": 2473715,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4828,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "17685602",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/17685602"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL230011",
+        "parent_molecule_chembl_id": "CHEMBL230011",
+        "record_id": 2473297,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4866,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "26301626",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/26301626"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL5314409",
+        "parent_molecule_chembl_id": "CHEMBL2216859",
+        "record_id": 2473351,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4868,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://cancerres.aacrjournals.org/content/74/19_Supplement/4531.short",
+            "ref_type": "Other",
+            "ref_url": "http://cancerres.aacrjournals.org/content/74/19_Supplement/4531.short"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3545054",
+        "parent_molecule_chembl_id": "CHEMBL3545054",
+        "record_id": 2472929,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 7253,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "label/2017/209936s000lbl.pdf",
+            "ref_type": "FDA",
+            "ref_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/209936s000lbl.pdf"
+          },
+          {
+            "ref_id": "15705718",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/15705718"
+          },
+          {
+            "ref_id": "24170767",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24170767"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3545068",
+        "parent_molecule_chembl_id": "CHEMBL3218576",
+        "record_id": 2472970,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 7413,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "label/2017/209936s000lbl.pdf",
+            "ref_type": "FDA",
+            "ref_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/209936s000lbl.pdf"
+          },
+          {
+            "ref_id": "15705718",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/15705718"
+          },
+          {
+            "ref_id": "24170767",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24170767"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3218576",
+        "parent_molecule_chembl_id": "CHEMBL3218576",
+        "record_id": 2473104,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 7851,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "NCT03711578",
+            "ref_type": "ClinicalTrials",
+            "ref_url": "https://www.clinicaltrials.gov/ct2/show/NCT03711578"
+          },
+          {
+            "ref_id": "32824175",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/32824175"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4297584",
+        "parent_molecule_chembl_id": "CHEMBL4297584",
+        "record_id": 3133175,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 8305,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "28947947",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/28947947"
+          },
+          {
+            "ref_id": "28972011",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/28972011"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3643413",
+        "parent_molecule_chembl_id": "CHEMBL3643413",
+        "record_id": 2973238,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 8402,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "https://jpet.aspetjournals.org/content/374/1/211",
+            "ref_type": "Other",
+            "ref_url": "https://jpet.aspetjournals.org/content/374/1/211"
+          },
+          {
+            "ref_id": "30803990",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/30803990"
+          },
+          {
+            "ref_id": "31749910",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/31749910"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4297615",
+        "parent_molecule_chembl_id": "CHEMBL4297615",
+        "record_id": 3133214,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 8430,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "NCT03345407",
+            "ref_type": "ClinicalTrials",
+            "ref_url": "https://www.clinicaltrials.gov/ct2/show/NCT03345407"
+          },
+          {
+            "ref_id": "https://erj.ersjournals.com/content/42/Suppl_57/4859",
+            "ref_type": "Other",
+            "ref_url": "https://erj.ersjournals.com/content/42/Suppl_57/4859"
+          },
+          {
+            "ref_id": "28823947",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/28823947"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2216859",
+        "parent_molecule_chembl_id": "CHEMBL2216859",
+        "record_id": 2973245,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 8717,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "28442583",
+            "ref_type": "PubMed",
+            "ref_url": "https://pubmed.ncbi.nlm.nih.gov/28442583/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4297648",
+        "parent_molecule_chembl_id": "CHEMBL4297648",
+        "record_id": 3133255,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 9613,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "label/2023/217759s000lbl.pdf",
+            "ref_type": "FDA",
+            "ref_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/217759s000lbl.pdf"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3989909",
+        "parent_molecule_chembl_id": "CHEMBL3643413",
+        "record_id": 2973265,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 9843,
+        "mechanism_comment": null,
+        "mechanism_of_action": "PI3-kinase p110-delta subunit inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "https://www.ema.europa.eu/en/documents/product-information/copiktra-epar-product-information_en.pdf",
+            "ref_type": "EMA",
+            "ref_url": "https://www.ema.europa.eu/en/documents/product-information/copiktra-epar-product-information_en.pdf"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL5315125",
+        "parent_molecule_chembl_id": "CHEMBL3039502",
+        "record_id": 3956801,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3130",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 50,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 21
+    }
+  },
+  "CHEMBL2842": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 3893,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "23085766",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/23085766"
+          },
+          {
+            "ref_id": "25519700",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/25519700"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3545097",
+        "parent_molecule_chembl_id": "CHEMBL3545097",
+        "record_id": 2473019,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4149,
+        "mechanism_comment": "ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "20028854",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/20028854"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1801204",
+        "parent_molecule_chembl_id": "CHEMBL1801204",
+        "record_id": 2472772,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4172,
+        "mechanism_comment": "ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "26102506",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/26102506"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3586573",
+        "parent_molecule_chembl_id": "CHEMBL3586573",
+        "record_id": 2473765,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4211,
+        "mechanism_comment": "ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "10.1158/1535-7163.TARG-13-C173",
+            "ref_type": "DOI",
+            "ref_url": "http://mct.aacrjournals.org/content/12/11_Supplement/C173"
+          },
+          {
+            "ref_id": "http://www.hra.nhs.uk/news/research-summaries/phase-1-study-of-ds-3078a-in-patients-with-advanced-cancers/",
+            "ref_type": "Other",
+            "ref_url": "http://www.hra.nhs.uk/news/research-summaries/phase-1-study-of-ds-3078a-in-patients-with-advanced-cancers/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3544963",
+        "parent_molecule_chembl_id": "CHEMBL3544963",
+        "record_id": 2472775,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4212,
+        "mechanism_comment": "Dual MTOR/PI3K inhibitor, ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "24504419",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24504419"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3545248",
+        "parent_molecule_chembl_id": "CHEMBL3545248",
+        "record_id": 2473348,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4223,
+        "mechanism_comment": "Dual MTOR/PIK3 inhibitor, ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "15705718",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/15705718"
+          },
+          {
+            "ref_id": "24900173",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24900173"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1236962",
+        "parent_molecule_chembl_id": "CHEMBL1236962",
+        "record_id": 1976765,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4302,
+        "mechanism_comment": "ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "25700704",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/25700704"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL5095025",
+        "parent_molecule_chembl_id": "CHEMBL5095025",
+        "record_id": 2473566,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4305,
+        "mechanism_comment": "ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "19010932",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/19010932"
+          },
+          {
+            "ref_id": "21551258",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21551258"
+          },
+          {
+            "ref_id": "22982188",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/22982188"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2141712",
+        "parent_molecule_chembl_id": "CHEMBL2141712",
+        "record_id": 2473434,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4321,
+        "mechanism_comment": "ATP-competitive PI3K/mTOR inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "20797855",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/20797855"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1258517",
+        "parent_molecule_chembl_id": "CHEMBL1258517",
+        "record_id": 2473265,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4332,
+        "mechanism_comment": "No references found",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3545323",
+        "parent_molecule_chembl_id": "CHEMBL3545323",
+        "record_id": 2473568,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4335,
+        "mechanism_comment": "Also studied in veterinary cancers. Dual MTOR/PI3K inhibitor, ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "10.1158/1538-7445.AM2014-1644",
+            "ref_type": "DOI",
+            "ref_url": "http://cancerres.aacrjournals.org/content/74/19_Supplement/1644"
+          },
+          {
+            "ref_id": "http://www.mosaiclabs.com/pdf/AACR2012_PWT33597_RCC.pdf",
+            "ref_type": "Other",
+            "ref_url": "http://www.mosaiclabs.com/pdf/AACR2012_PWT33597_RCC.pdf"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3545006",
+        "parent_molecule_chembl_id": "CHEMBL3545006",
+        "record_id": 2472857,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4350,
+        "mechanism_comment": "ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "24900569",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24900569"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2331680",
+        "parent_molecule_chembl_id": "CHEMBL2331680",
+        "record_id": 2473693,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4377,
+        "mechanism_comment": "Prodrug - active metabolite is LY-294002. Dual MTOR/PI3K inhibitor, ATP-competitive mTORC1/mTORC2 inhibitor.",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "NCT02337309",
+            "ref_type": "ClinicalTrials",
+            "ref_url": "https://www.clinicaltrials.gov/ct2/show/NCT02337309"
+          },
+          {
+            "ref_id": "22261336",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/22261336"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2326966",
+        "parent_molecule_chembl_id": "CHEMBL2326966",
+        "record_id": 2473437,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 4408,
+        "mechanism_comment": "Inhibitor of class I phosphoinositide 3-kinase (PI3K) isoforms, ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "23270925",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/23270925"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3393066",
+        "parent_molecule_chembl_id": "CHEMBL3393066",
+        "record_id": 2473134,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 4662,
+        "mechanism_comment": "Dual MTOR/PIK3 inhibitor, ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "18606717",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18606717"
+          },
+          {
+            "ref_id": "24591840",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24591840"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1879463",
+        "parent_molecule_chembl_id": "CHEMBL1879463",
+        "record_id": 1937964,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4664,
+        "mechanism_comment": "Dual MTOR/PIK3 inhibitor, ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "22357447",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/22357447"
+          },
+          {
+            "ref_id": "24591840",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24591840"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3545096",
+        "parent_molecule_chembl_id": "CHEMBL3218578",
+        "record_id": 2473016,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4684,
+        "mechanism_comment": "ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "25855786",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/25855786"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3586404",
+        "parent_molecule_chembl_id": "CHEMBL3586404",
+        "record_id": 2473148,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4776,
+        "mechanism_comment": "ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "21673091",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21673091"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3120215",
+        "parent_molecule_chembl_id": "CHEMBL3120215",
+        "record_id": 2473463,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4785,
+        "mechanism_comment": "Dual MTOR/PIK3 inhibitor, ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "15705718",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/15705718"
+          },
+          {
+            "ref_id": "21750219",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21750219"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1234354",
+        "parent_molecule_chembl_id": "CHEMBL1234354",
+        "record_id": 2473020,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 4787,
+        "mechanism_comment": "Dual MTOR/PIK3 inhibitor, ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "15705718",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/15705718"
+          },
+          {
+            "ref_id": "21325073",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21325073"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL592445",
+        "parent_molecule_chembl_id": "CHEMBL592445",
+        "record_id": 1976763,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4809,
+        "mechanism_comment": "Dual MTOR/PIK3 inhibitor, ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "15705718",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/15705718"
+          },
+          {
+            "ref_id": "21981714",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21981714"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1922094",
+        "parent_molecule_chembl_id": "CHEMBL1922094",
+        "record_id": 1937984,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4816,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://www.exelixis.com/pipeline/xl765",
+            "ref_type": "Other",
+            "ref_url": "http://www.exelixis.com/pipeline/xl765"
+          },
+          {
+            "ref_id": "15705718",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/15705718"
+          },
+          {
+            "ref_id": "24634413",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24634413"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3545366",
+        "parent_molecule_chembl_id": "CHEMBL3545366",
+        "record_id": 2473665,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4869,
+        "mechanism_comment": "Dual MTOR/PIK3 inhibitor, ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://www.lillyoncologypipeline.com/pi3kmtor-dual-inhibitor.aspx",
+            "ref_type": "Other",
+            "ref_url": "http://www.lillyoncologypipeline.com/pi3kmtor-dual-inhibitor.aspx"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4297181",
+        "parent_molecule_chembl_id": "CHEMBL4297181",
+        "record_id": 2472849,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5607,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "18451242",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18451242"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2103839",
+        "parent_molecule_chembl_id": "CHEMBL2103839",
+        "record_id": 1699826,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 6861,
+        "mechanism_comment": "It inhibits the mitochondrial enzyme carnitine palmitoyltransferase 1 (CPT-1) and to a lesser extent CPT-2. This causes a shift in myocardial substrate utilisation from long chain fatty acids to carbohydrates, resulting in increased glucose and lactate utilization and increased ATP production for the same O2 consumption as before and consequently increases myocardial efficiency. Perhexiline maleate was also found to inhibit the activity of Mammalian target of rapamycin complex 1 (mTORC1).",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://www.medsafe.govt.nz/profs/Datasheet/p/pexsigtab.pdf",
+            "ref_type": "Other",
+            "ref_url": "http://www.medsafe.govt.nz/profs/Datasheet/p/pexsigtab.pdf"
+          },
+          {
+            "ref_id": "19771169",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/19771169"
+          },
+          {
+            "ref_id": "24131551",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24131551"
+          },
+          {
+            "ref_id": "3793279",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/3793279"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1334033",
+        "parent_molecule_chembl_id": "CHEMBL75880",
+        "record_id": 1702113,
+        "selectivity_comment": "It inhibits rat heart and liver carnitine palmitoyltransferase 1 (CPT1) (IC50 = 77 and 148 \u00b5M, respectively) and rat heart CPT2 (IC50 = 79 \u00b5M). It reversibly inhibits Mammalian target of rapamycin complex 1 (mTORC1) at micromolar concentrations.",
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 7265,
+        "mechanism_comment": "ATP-competitive mTORC1/mTORC2 inhibitor",
+        "mechanism_of_action": "Serine/threonine-protein kinase mTOR inhibitor",
+        "mechanism_refs": [],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2336325",
+        "parent_molecule_chembl_id": "CHEMBL2336325",
+        "record_id": 2973157,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2842",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 50,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 26
+    }
+  },
+  "CHEMBL1806": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 99,
+        "mechanism_comment": null,
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "setid=e28c05f0-081f-406d-8bfb-9160a6908307#nlm34090-1",
+            "ref_type": "DailyMed",
+            "ref_url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e28c05f0-081f-406d-8bfb-9160a6908307#nlm34090-1"
+          },
+          {
+            "ref_id": "Type_II_topoisomerase",
+            "ref_type": "Wikipedia",
+            "ref_url": "http://en.wikipedia.org/wiki/Type_II_topoisomerase"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1200645",
+        "parent_molecule_chembl_id": "CHEMBL1200645",
+        "record_id": 1343568,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 100,
+        "mechanism_comment": null,
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "archiveid=215669",
+            "ref_type": "DailyMed",
+            "ref_url": "http://www.dailymed.nlm.nih.gov/dailymed/archives/fdaDrugInfo.cfm?archiveid=215669"
+          },
+          {
+            "ref_id": "archiveid=69731",
+            "ref_type": "DailyMed",
+            "ref_url": "http://www.dailymed.nlm.nih.gov/dailymed/archives/fdaDrugInfo.cfm?archiveid=69731"
+          },
+          {
+            "ref_id": "Daunorubicin",
+            "ref_type": "Wikipedia",
+            "ref_url": "http://en.wikipedia.org/wiki/Daunorubicin"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1200475",
+        "parent_molecule_chembl_id": "CHEMBL178",
+        "record_id": 1343685,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 101,
+        "mechanism_comment": null,
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "archiveid=215669",
+            "ref_type": "DailyMed",
+            "ref_url": "http://www.dailymed.nlm.nih.gov/dailymed/archives/fdaDrugInfo.cfm?archiveid=215669"
+          },
+          {
+            "ref_id": "archiveid=69731",
+            "ref_type": "DailyMed",
+            "ref_url": "http://www.dailymed.nlm.nih.gov/dailymed/archives/fdaDrugInfo.cfm?archiveid=69731"
+          },
+          {
+            "ref_id": "Daunorubicin",
+            "ref_type": "Wikipedia",
+            "ref_url": "http://en.wikipedia.org/wiki/Daunorubicin"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1563",
+        "parent_molecule_chembl_id": "CHEMBL178",
+        "record_id": 1343998,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 102,
+        "mechanism_comment": null,
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "label/2015/050718s048lbl.pdf",
+            "ref_type": "FDA",
+            "ref_url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/050718s048lbl.pdf"
+          },
+          {
+            "ref_id": "Type_II_topoisomerase",
+            "ref_type": "Wikipedia",
+            "ref_url": "http://en.wikipedia.org/wiki/Type_II_topoisomerase"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL359744",
+        "parent_molecule_chembl_id": "CHEMBL53463",
+        "record_id": 1344690,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 103,
+        "mechanism_comment": null,
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "setid=4d0f0f1a-31af-40fa-9c64-e90891fa6ce4",
+            "ref_type": "DailyMed",
+            "ref_url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4d0f0f1a-31af-40fa-9c64-e90891fa6ce4"
+          },
+          {
+            "ref_id": "Type_II_topoisomerase",
+            "ref_type": "Wikipedia",
+            "ref_url": "http://en.wikipedia.org/wiki/Type_II_topoisomerase"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1417019",
+        "parent_molecule_chembl_id": "CHEMBL58",
+        "record_id": 1343508,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 104,
+        "mechanism_comment": null,
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "setid=e96f30a0-6662-11de-8f80-0002a5d5c51b",
+            "ref_type": "DailyMed",
+            "ref_url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e96f30a0-6662-11de-8f80-0002a5d5c51b"
+          },
+          {
+            "ref_id": "Type_II_topoisomerase",
+            "ref_type": "Wikipedia",
+            "ref_url": "http://en.wikipedia.org/wiki/Type_II_topoisomerase"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1096885",
+        "parent_molecule_chembl_id": "CHEMBL1096885",
+        "record_id": 1343788,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 105,
+        "mechanism_comment": null,
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "setid=0a5a6d93-cc1e-4d7f-8da1-446c134503b3",
+            "ref_type": "DailyMed",
+            "ref_url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a5a6d93-cc1e-4d7f-8da1-446c134503b3"
+          },
+          {
+            "ref_id": "Type_II_topoisomerase",
+            "ref_type": "Wikipedia",
+            "ref_url": "http://en.wikipedia.org/wiki/Type_II_topoisomerase"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1200976",
+        "parent_molecule_chembl_id": "CHEMBL1117",
+        "record_id": 1344229,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5737,
+        "mechanism_comment": "Intercalates into DNA and inhibits the activity of topoisomerase II, resulting in inhibition of DNA replication.",
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "26750506",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/26750506"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL481958",
+        "parent_molecule_chembl_id": "CHEMBL1186894",
+        "record_id": 1706054,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5752,
+        "mechanism_comment": null,
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "25312684",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/25312684"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2107818",
+        "parent_molecule_chembl_id": "CHEMBL2107818",
+        "record_id": 1706443,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5798,
+        "mechanism_comment": "Intercalates into DNA and inhibits the activity of topoisomerase II, resulting in inhibition of DNA replication.",
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "26750506",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/26750506"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1186894",
+        "parent_molecule_chembl_id": "CHEMBL1186894",
+        "record_id": 1980355,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 5961,
+        "mechanism_comment": "Upon binding of the antibody to the receptor protein-tyrosine kinase ERBB2, the immunoliposome allows for specific delivery of doxorubicin to tumors overexpressing the ERBB2 receptor. Once inside the HER2-expressing tumor cells, doxorubicin intercalates into DNA and interferes with DNA topoisomerase II activity, thereby inhibiting DNA replication and RNA synthesis.",
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "21048526",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21048526"
+          },
+          {
+            "ref_id": "26162690",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/26162690"
+          },
+          {
+            "ref_id": "27259714",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/27259714"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3833344",
+        "parent_molecule_chembl_id": "CHEMBL3833344",
+        "record_id": 2792995,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 7252,
+        "mechanism_comment": null,
+        "mechanism_of_action": "DNA topoisomerase II alpha inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "archiveid=215669",
+            "ref_type": "DailyMed",
+            "ref_url": "http://www.dailymed.nlm.nih.gov/dailymed/archives/fdaDrugInfo.cfm?archiveid=215669"
+          },
+          {
+            "ref_id": "archiveid=69731",
+            "ref_type": "DailyMed",
+            "ref_url": "http://www.dailymed.nlm.nih.gov/dailymed/archives/fdaDrugInfo.cfm?archiveid=69731"
+          },
+          {
+            "ref_id": "Daunorubicin",
+            "ref_type": "Wikipedia",
+            "ref_url": "http://en.wikipedia.org/wiki/Daunorubicin"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL178",
+        "parent_molecule_chembl_id": "CHEMBL178",
+        "record_id": 2792891,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1806",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 50,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 12
+    }
+  },
+  "CHEMBL4506": {
+    "mechanisms": [
+      {
+        "action_type": "ACTIVATOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 7797,
+        "mechanism_comment": null,
+        "mechanism_of_action": "NAD-dependent deacetylase sirtuin 1 activator",
+        "mechanism_refs": [
+          {
+            "ref_id": "23770971",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/23770971"
+          },
+          {
+            "ref_id": "26556603",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/26556603"
+          },
+          {
+            "ref_id": "27239324",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/27239324"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4297436",
+        "parent_molecule_chembl_id": "CHEMBL4297436",
+        "record_id": 3133004,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4506",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 9516,
+        "mechanism_comment": null,
+        "mechanism_of_action": "NAD-dependent deacetylase sirtuin 1 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "25223731",
+            "ref_type": "PubMed",
+            "ref_url": "https://pubmed.ncbi.nlm.nih.gov/25223731/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL382277",
+        "parent_molecule_chembl_id": "CHEMBL382277",
+        "record_id": 3589787,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4506",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 50,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    }
+  }
+}
